@@ -1,27 +1,35 @@
-# React Native Recruitment Assignment
+# Digers React Native Developer Recruitment Assignment
 
-**A simple, RN based assignment checking your React Native development skills.** 
+**A simple, RN based assignment assessing your React Native development skills.** 
 
 
 
 ### Requirements/perequisites:
-* Working on Android or iOS
-* Data source to be used in the game (list of countries with their flags), które należy wykorzystać do przygotowania danych do gry (przygotowanie dla gry zestawu składającego się z 10 par, z których część jest prawidłowa, a część nieprawidłowa)
-https://github.com/linssen/country-flag-icons/blob/master/countries.json
-* Use local storage to store country/flag image data  (first launch imports data from the xml and Wikipedia (images))
+* Working on Android **or** iOS
+* Data source to be used in the game (list of countries with corresponding flags) available at https://github.com/linssen/country-flag-icons/blob/master/countries.json
+* Use local storage to store country/flag data
 
 
-### Rules:
-A simple True/False game - displays pairs of country flag together with country name. User's role is to answer whether the name displayed for the flag is correct.
+### Rules and gameplay:
+A simple True/False game - displays pairs of country flag and country name. Pairs can be correct or incorrect. Player's role is to confirm whether flag/name pair is correct or not.
 
-* 3 screens  - start (button Play), game (flag image, country name, time counter, number of answered/number of all pairs), summary.
-*  Display the first pair (name, flag)
+
+
+ ### Gameplay
+*  Upon launch the app downloads the aforementioned .json dataset.
+*  When new game is started, prepare a set of 10 pairs, 5 of which are correct, 5 of which are incorrect. Download image data.
+*  When completed, display first pair (name, flag) and start timer
 *  Answering by swyping left (incorrect), swype right (correct)
-*  If answered correctly - display another pair
-*  Limited time to answer - 3 seconds. If time is exceeded - game over.
-*  If answered correctly - game over.
-*  When 10 pairs are answered correctly - game ends.
-*  Summary screen is displayed (number of correct answers, average answer time). 'Play again' button.
+*  If answered correctly - display 'Correct!' messsage, proceed to next pair
+*  Limited time to answer - 3 seconds. If time is exceeded - game over - display 'Time's up!' message and proceed to summary screen.
+*  If answered incorrectly - game over, display 'Incorrect!' message and proceed to summary screen.
+*  When 10 pairs are answered correctly - game ends, proceed to summary screen.
 
+
+### Design/screen breakdown ###  
+ * welcome screen ('Play' button, rules), 
+ * answering screen (flag image, country name, time counter, number of answered/number of all pairs), 
+ * summary screen (number of correct answers
+ 
 
 **Once completed, upload code to your github account and share.**
