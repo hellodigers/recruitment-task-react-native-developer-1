@@ -10,7 +10,7 @@
 * Use local storage to store country/flag data
 
 
-### Rules and gaassignmentmeplay:
+### Rules and gameplay
 A simple True/False game - displays pairs of country flag and country name. Pairs can be correct or incorrect. Player's role is to confirm whether flag/name pair is correct or not.
 
 
@@ -19,7 +19,7 @@ A simple True/False game - displays pairs of country flag and country name. Pair
 *  Upon launch the app downloads the aforementioned .json dataset.
 *  When new game is started, prepare a set of 10 pairs, 5 of which are correct, 5 of which are incorrect. Download image data.
 *  When completed, display first pair (name, flag) and start timer
-*  Answering by swyping left (incorrect), swype right (correct)
+*  Answering by swyping flag image left (incorrect), swyping flag image right (correct) (tinder-like)
 *  If answered correctly - display 'Correct!' messsage, proceed to next pair
 *  Limited time to answer - 3 seconds. If time is exceeded - game over. Display 'Time's up!' message and proceed to summary screen.
 *  If answered incorrectly - game over, display 'Incorrect!' message and proceed to summary screen.
