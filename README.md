@@ -12,14 +12,16 @@ https://github.com/linssen/country-flag-icons/blob/master/countries.json
 
 
 ### Rules:
-Prosta gra na prawda/fałsz - polega na wyświetlaniu użytkownikowi, po kolei 10 flag krajów w parze z nazwą kraju (nazwa może być niepoprawna!) i odpowiadaniu, czy dane przypisanie jest prawdą, czy fałszem.
-* Użytkownik swype'ując w prawo potwierdza prawidłowe przypisanie, swype'ując w lewo - nieprawidłowe.
-* Po odpowiedzi na pytanie wyświetlana jest kolejna para -  flaga i nazwa kraju.
-* Czas na odpowiedź jest ograniczony (3 sekundy), licznik czasu i licznik ile odpowiedzianych/ile zostało jest widoczny.
-* Po upływie czasu  na odpowiedź - koniec gry.
-* Przy nieprawidłowej odpowiedzi - koniec gry.
-* Na koniec (prawidłowa odpowiedź na wszystkie 10 par, lub błąd/timeout) - wyświetlany jest ekran podsumowujący - liczba prawidłowych odpowiedzi oraz button 'Graj ponownie'
+A simple True/False game - displays pairs of country flag together with country name. User's role is to answer whether the name displayed for the flag is correct.
+
+* 3 screens  - start (button Play), game (flag image, country name, time counter, number of answered/number of all pairs), summary.
+*  Display the first pair (name, flag)
+*  Answering by swyping left (incorrect), swype right (correct)
+*  If answered correctly - display another pair
+*  Limited time to answer - 3 seconds. If time is exceeded - game over.
+*  If answered correctly - game over.
+*  When 10 pairs are answered correctly - game ends.
+*  Summary screen is displayed (number of correct answers, average answer time). 'Play again' button.
 
 
-
-**Once completed, upload to your github account and share.**
+**Once completed, upload code to your github account and share.**
