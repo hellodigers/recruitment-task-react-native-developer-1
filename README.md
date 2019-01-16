@@ -1,6 +1,6 @@
 # Digers React Native Developer Recruitment Assignment
 
-**A simple, RN based assignment assessing your React Native development skills.** 
+**A simple, RN based  assessing your React Native development skills.** 
 
 
 
@@ -10,7 +10,7 @@
 * Use local storage to store country/flag data
 
 
-### Rules and gameplay:
+### Rules and gaassignmentmeplay:
 A simple True/False game - displays pairs of country flag and country name. Pairs can be correct or incorrect. Player's role is to confirm whether flag/name pair is correct or not.
 
 
@@ -21,13 +21,13 @@ A simple True/False game - displays pairs of country flag and country name. Pair
 *  When completed, display first pair (name, flag) and start timer
 *  Answering by swyping left (incorrect), swype right (correct)
 *  If answered correctly - display 'Correct!' messsage, proceed to next pair
-*  Limited time to answer - 3 seconds. If time is exceeded - game over - display 'Time's up!' message and proceed to summary screen.
+*  Limited time to answer - 3 seconds. If time is exceeded - game over. Display 'Time's up!' message and proceed to summary screen.
 *  If answered incorrectly - game over, display 'Incorrect!' message and proceed to summary screen.
 *  When 10 pairs are answered correctly - game ends, proceed to summary screen.
 
 
 ### Design/screen breakdown ###  
- * welcome screen ('Play' button, rules), 
+ * welcome screen ('Play' button), 
  * answering screen (flag image, country name, time counter, number of answered/number of all pairs), 
  * summary screen (number of correct answers
  
